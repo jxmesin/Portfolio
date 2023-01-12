@@ -16,8 +16,8 @@ html {
 
 .navbar-nav li  a {
     color: var(--lightgrey) !important;
-    justify-content: space-between;
 }
+
 
 
 .homepage {
@@ -30,7 +30,7 @@ html {
     word-wrap: normal;
 }
 
-.textposition {
+.textstyle {
     width: 100px;
     position: absolute; 
     bottom: 180px; 

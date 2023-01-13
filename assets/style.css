@@ -4,12 +4,6 @@
     --lightgrey: #B2BABD;
 }
 
-html {
-    scroll-snap-type: mandatory;
-    scroll-snap-points-y: repeat(10vh);
-    scroll-snap-type: y mandatory;
-}
-
 .navbar-nav {
     font-family: 'Roboto' , sans-serif;
 }
@@ -18,7 +12,29 @@ html {
     color: var(--lightgrey) !important;
 }
 
+@media only screen and (max-width: 500px) {
+    .textstyle {
+        position: absolute; 
+        top: 50%; 
+        left: 50%; 
+        font-family: 'Roboto' , sans-serif;
+        font-size: 10vw;
+        font-weight: 700;
+        transform: translate(-50%, -50%);
+    }
+}
 
+@media only screen and (min-width: 500px) {
+    .textstyle {
+        width: 2vw;
+        position: absolute; 
+        top: 50%; 
+        left: 10%; 
+        font-family: 'Roboto' , sans-serif;
+        font-size: 10vw;
+        font-weight: 700;
+    }
+}
 
 .homepage {
     position: relative; 
@@ -30,15 +46,15 @@ html {
     word-wrap: normal;
 }
 
-.textstyle {
-    width: 100px;
-    position: absolute; 
-    bottom: 180px; 
-    left: 80px; 
-    font-family: 'Roboto' , sans-serif;
-    font-size: 120px;
-    font-weight: 700;
-}
+ /* .textstyle {
+      width: 100px;
+      position: absolute; 
+      bottom: 180px; 
+      left: 80px; 
+      font-family: 'Roboto' , sans-serif;
+      font-size: 120px;
+      font-weight: 700;
+  } */
 
 
 body h1 {

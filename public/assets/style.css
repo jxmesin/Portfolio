@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Amarante&family=Creepster&family=DM+Serif+Display&family=Jost&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --lightgrey: #B2BABD;
+}
+
+.navbar-nav {
+    font-family: 'Roboto' , sans-serif;   
+}
+
+.navbar-nav li  a {
+    color: var(--lightgrey) !important;
+}
+
+@media only screen and (max-width: 500px) {
+    .textstyle {
+        position: absolute; 
+        top: 50%; 
+        left: 50%; 
+        font-family: 'Roboto' , sans-serif;
+        font-size: 20vw;
+        font-weight: 700;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    .textstyle {
+        width: 2vw;
+        position: absolute; 
+        top: 35%; 
+        left: 5%; 
+        font-family: 'Roboto' , sans-serif;
+        font-size: 12vw;
+        font-weight: 700;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .textstyle2 {
+        position: absolute; 
+        top: 90%; 
+        left: 50%; 
+        font-family: 'Roboto' , sans-serif;
+        font-size: 100px;
+        font-weight: 700;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    .textstyle2 {
+        width: 100vw;
+        position: absolute; 
+        top: 95%; 
+        right: 23%;
+        font-family: 'Roboto' , sans-serif;
+        font-size: 60px;
+        font-weight: 400;
+    }
+}
+
+.homepage {
+    position: relative; 
+    text-align: center; 
+    color: black;
+    height: 100vh;
+}
+
+.homepage h1 {
+    word-wrap: normal;
+    line-height: 12rem;
+}
+
+
+.gradient {
+	background: linear-gradient(-45deg, #3E9BFF,#6371F6,#C956FF,#FE6E6E,#FF7CD6, #333);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.rect {
+    display: flex;
+    height: 100vh;
+    left: 100px;
+    overflow: hidden;
+}
+
+
+body h1 {
+    font-family: 'Roboto' , sans-serif;
+}
+
+body p {
+    font-family: 'Roboto' , sans-serif;
+}
+
+body {
+    font-family: 'Roboto' , sans-serif;
+    overflow-x: hidden;
+}
+
+h1 {
+    margin-bottom: 50px;
+}
+
+label {
+    color: #333;
+}
+
+.card{
+	margin-left: 10px;
+	margin-right: 10px;
+} 
+
+.card-work {
+    border-radius: 4px;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    cursor: pointer;
+}
+
+.card-work:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+
+.container-fluid {
+    padding-left: 0rem !important;
+    padding-right: 0rem !important;
+    overflow: hidden;
+}
+
+body{
+    margin-top:20px;
+    background:#eee;
+}
+
+body{margin-top:20px;}
+.timeline-steps {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap
+}
+
+.timeline-steps .timeline-step {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 1rem
+}
+
+@media (min-width:768px) {
+    .timeline-steps .timeline-step:not(:last-child):after {
+        content: "";
+        display: block;
+        border-top: .25rem dotted #2b3036;
+        width: 3.46rem;
+        position: absolute;
+        left: 7.5rem;
+        top: .3125rem
+    }
+    .timeline-steps .timeline-step:not(:first-child):before {
+        content: "";
+        display: block;
+        border-top: .25rem dotted #2b3036;
+        width: 3.8125rem;
+        position: absolute;
+        right: 7.5rem;
+        top: .3125rem
+    }
+}
+
+.timeline-steps .timeline-content {
+    width: 10rem;
+    text-align: center
+}
+
+.timeline-steps .timeline-content .inner-circle {
+    border-radius: 1.5rem;
+    height: 1rem;
+    width: 1rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2b3036
+}
+
+.timeline-steps .timeline-content .inner-circle:before {
+    content: "";
+    background-color: #2b3036;
+    display: inline-block;
+    height: 2.5rem;
+    width: 2.5rem;
+    min-width: 2.5rem;
+    border-radius: 6.25rem;
+    opacity: .5
+}
+
+footer a {
+    text-decoration: none;
+}

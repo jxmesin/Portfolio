@@ -121,8 +121,11 @@ label {
 }
 
 .design-sec {
-    margin: 150px !important;
+    margin-left: 200px !important;
+    margin-right: 200px !important;
 }
+
+
 
 body{
     margin-top:20px;

@@ -114,16 +114,19 @@ label {
     box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }
 
-
 .container-fluid {
     padding-left: 0rem !important;
     padding-right: 0rem !important;
     overflow: hidden;
 }
 
+.design-sec {
+    margin: 150px !important;
+}
+
 body{
     margin-top:20px;
-    background:#eee;
+    background:rgb(255, 255, 255) !important;
 }
 
 body{margin-top:20px;}

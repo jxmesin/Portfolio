@@ -28,7 +28,7 @@
     .textstyle {
         width: 2vw;
         position: absolute; 
-        top: 45%; 
+        top: 40%; 
         left: 5%; 
         font-family: 'Roboto' , sans-serif;
         font-size: 12vw;
@@ -76,16 +76,17 @@
 }
 
 
-body h1 {
-    font-family: 'Roboto' , sans-serif;
+body h1, h2, h3, h4, h5 {
+    font-family: 'Roboto' , sans-serif !important;
 }
 
 body p {
-    font-family: 'Roboto' , sans-serif;
+    font-family: 'Roboto' , sans-serif !important;
 }
 
 body {
-    font-family: 'Roboto' , sans-serif;
+    font-family: 'Roboto' , sans-serif !important;
+    background:rgb(255, 255, 255) !important;
     overflow-x: hidden;
 }
 
@@ -121,18 +122,10 @@ label {
 }
 
 .design-sec {
-    margin-left: 200px !important;
-    margin-right: 200px !important;
+    margin-left: 150px !important;
+    margin-right: 150px !important;
 }
 
-
-
-body{
-    margin-top:20px;
-    background:rgb(255, 255, 255) !important;
-}
-
-body{margin-top:20px;}
 .timeline-steps {
     display: flex;
     justify-content: center;

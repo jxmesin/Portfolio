@@ -28,7 +28,7 @@
     .textstyle {
         width: 2vw;
         position: absolute; 
-        top: 40%; 
+        top: 45%; 
         left: 5%; 
         font-family: 'Roboto' , sans-serif;
         font-size: 12vw;
@@ -45,7 +45,7 @@
 
 .homepage h1 {
     word-wrap: normal;
-    line-height: 12rem;
+    line-height: 12rem !important;
 }
 
 
